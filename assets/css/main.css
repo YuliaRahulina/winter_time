@@ -1,0 +1,1127 @@
+body {
+    margin: 0;
+}
+
+.content {
+    background-color: rgb(37, 34, 34);
+    position: relative;
+    display: flex;
+    height: 100vh;
+}
+
+.audio {
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    opacity: 0.3;
+}
+
+.moon {
+    height: 100px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: moon;
+}
+
+.winter {
+    /* margin-top: auto; */
+}
+
+@keyframes moon {
+    from {
+        height: 100px;
+        transform: rotate(3deg);
+    }
+
+    to {
+        height: 103px;
+        transform: rotate(0deg);
+    }
+}
+
+.star {
+    position: absolute;
+    height: 20px;
+    top: 30px;
+    left: 5px;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: star;
+}
+
+@keyframes star {
+    from {
+        height: 3px;
+    }
+
+    to {
+        height: 20px;
+    }
+}
+
+.star1 {
+    position: absolute;
+    height: 24px;
+    top: 110px;
+    left: 280px;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: star1;
+}
+
+@keyframes star1 {
+    from {
+        height: 3px;
+    }
+
+    to {
+        height: 20px;
+    }
+}
+
+.star2 {
+    position: absolute;
+    height: 21px;
+    right: 410px;
+    top: 150px;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: star2;
+}
+
+@keyframes star2 {
+    from {
+        height: 3px;
+    }
+
+    to {
+        height: 20px;
+    }
+}
+
+.meteor {
+    position: absolute;
+    height: 18px;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: meteor;
+}
+
+@keyframes meteor {
+    from {
+        height: 18px;
+        top: 30px;
+        right: 5px;
+    }
+
+    to {
+        height: 2px;
+        top: 200px;
+        right: 255px;
+    }
+}
+
+.snowpillow {
+    position: absolute;
+    height: 100px;
+    left: 200px;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: snowpillow;
+}
+
+@keyframes snowpillow {
+    from {
+        height: 100px;
+    }
+
+    to {
+        height: 107px;
+    }
+}
+
+.second-snowpillow {
+    position: absolute;
+    height: 100px;
+    left: 500px;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: second-snowpillow;
+}
+
+@keyframes second-snowpillow {
+    from {
+        height: 100px;
+    }
+
+    to {
+        height: 110px;
+    }
+}
+
+.third-snowpillow {
+    position: absolute;
+    height: 100px;
+    left: 800px;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: third-snowpillow;
+}
+
+@keyframes third-snowpillow {
+    from {
+        height: 100px;
+    }
+
+    to {
+        height: 107px;
+    }
+}
+
+.snowflake {
+    height: 10px;
+    position: absolute;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: snowflake;
+}
+
+@keyframes snowflake {
+    from {
+        left: 5px;
+        top: 1px;
+    }
+
+    to {
+        left: 5px;
+        top: 500px;
+    }
+}
+
+.snowflake1 {
+    height: 10px;
+    position: absolute;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: snowflake1;
+}
+
+@keyframes snowflake1 {
+    from {
+        left: 29px;
+        top: 1px;
+    }
+
+    to {
+        left: 28px;
+        top: 543px;
+    }
+}
+
+.snowflake2 {
+    height: 10px;
+    position: absolute;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-name: snowflake2;
+}
+
+@keyframes snowflake2 {
+    from {
+        left: 54px;
+        top: 1px;
+    }
+
+    to {
+        left: 57px;
+        top: 532px;
+    }
+}
+
+.snowflake3 {
+    height: 10px;
+    position: absolute;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-name: snowflake3;
+}
+
+@keyframes snowflake3 {
+    from {
+        left: 87px;
+        top: 1px;
+    }
+
+    to {
+        left: 89px;
+        top: 521px;
+    }
+}
+
+.snowflake4 {
+    height: 10px;
+    position: absolute;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: snowflake4;
+}
+
+@keyframes snowflake4 {
+    from {
+        left: 109px;
+        top: 1px;
+    }
+
+    to {
+        left: 111px;
+        top: 515px;
+    }
+}
+
+.snowflake5 {
+    height: 10px;
+    position: absolute;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-name: snowflake5;
+}
+
+@keyframes snowflake5 {
+    from {
+        left: 135px;
+        top: 1px;
+    }
+
+    to {
+        left: 137px;
+        top: 537px;
+    }
+}
+
+.snowflake6 {
+    height: 10px;
+    position: absolute;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: snowflake6;
+}
+
+@keyframes snowflake6 {
+    from {
+        left: 169px;
+        top: 1px;
+    }
+
+    to {
+        left: 170px;
+        top: 510px;
+    }
+}
+
+.snowflake7 {
+    height: 10px;
+    position: absolute;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-name: snowflake7;
+}
+
+@keyframes snowflake7 {
+    from {
+        left: 205px;
+        top: 1px;
+    }
+
+    to {
+        left: 203px;
+        top: 539px;
+    }
+}
+
+.snowflake8 {
+    height: 10px;
+    position: absolute;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: snowflake8;
+}
+
+@keyframes snowflake8 {
+    from {
+        left: 239px;
+        top: 1px;
+    }
+
+    to {
+        left: 237px;
+        top: 504px;
+    }
+}
+
+.snowflake9 {
+    height: 10px;
+    position: absolute;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-name: snowflake9;
+}
+
+@keyframes snowflake9 {
+    from {
+        left: 289px;
+        top: 1px;
+    }
+
+    to {
+        left: 292px;
+        top: 537px;
+    }
+}
+
+.snowflake10 {
+    height: 10px;
+    position: absolute;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-name: snowflake10;
+}
+
+@keyframes snowflake10 {
+    from {
+        left: 315px;
+        top: 1px;
+    }
+
+    to {
+        left: 113px;
+        top: 509px;
+    }
+}
+
+.snowflake11 {
+    height: 8px;
+    position: absolute;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: snowflake11;
+}
+
+@keyframes snowflake11 {
+    from {
+        left: 358px;
+        top: 1px;
+    }
+
+    to {
+        left: 360px;
+        top: 539px;
+    }
+}
+
+.snowflake12 {
+    height: 10px;
+    position: absolute;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: snowflake12;
+}
+
+@keyframes snowflake12 {
+    from {
+        left: 399px;
+        top: 1px;
+    }
+
+    to {
+        left: 394px;
+        top: 512px;
+    }
+}
+
+.snowflake13 {
+    height: 10px;
+    position: absolute;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: snowflake13;
+}
+
+@keyframes snowflake13 {
+    from {
+        left: 438px;
+        top: 1px;
+    }
+
+    to {
+        left: 440px;
+        top: 527px;
+    }
+}
+
+.snowflake14 {
+    height: 10px;
+    position: absolute;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: snowflake14;
+}
+
+@keyframes snowflake14 {
+    from {
+        left: 487x;
+        top: 1px;
+    }
+
+    to {
+        left: 489px;
+        top: 519px;
+    }
+}
+
+.snowflake15 {
+    height: 10px;
+    position: absolute;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-name: snowflake15;
+}
+
+@keyframes snowflake15 {
+    from {
+        left: 521px;
+        top: 1px;
+    }
+
+    to {
+        left: 523px;
+        top: 529px;
+    }
+}
+
+.snowflake16 {
+    height: 10px;
+    position: absolute;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: snowflake16;
+}
+
+@keyframes snowflake16 {
+    from {
+        left: 571px;
+        top: 1px;
+    }
+
+    to {
+        left: 573px;
+        top: 524px;
+    }
+}
+
+.snowflake17 {
+    height: 10px;
+    position: absolute;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: snowflake17;
+}
+
+@keyframes snowflake17 {
+    from {
+        left: 616px;
+        top: 1px;
+    }
+
+    to {
+        left: 618px;
+        top: 519px;
+    }
+}
+
+.snowflake18 {
+    height: 10px;
+    position: absolute;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: snowflake18;
+    left: 205px;
+}
+
+@keyframes snowflake18 {
+    from {
+        left: 674px;
+        top: 1px;
+    }
+
+    to {
+        left: 675px;
+        top: 519px;
+    }
+}
+
+.snowflake19 {
+    height: 10px;
+    position: absolute;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-name: snowflake19;
+}
+
+@keyframes snowflake19 {
+    from {
+        left: 712px;
+        top: 1px;
+    }
+
+    to {
+        left: 715px;
+        top: 519px;
+    }
+}
+
+.snowflake20 {
+    height: 10px;
+    position: absolute;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: snowflake20;
+}
+
+@keyframes snowflake20 {
+    from {
+        left: 759px;
+        top: 1px;
+    }
+
+    to {
+        left: 757px;
+        top: 539px;
+    }
+}
+
+.snowflake21 {
+    height: 10px;
+    position: absolute;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-name: snowflake21;
+    left: 205px;
+}
+
+@keyframes snowflake21 {
+    from {
+        left: 798px;
+        top: 1px;
+    }
+
+    to {
+        left: 796px;
+        top: 509px;
+    }
+}
+
+.snowflake22 {
+    height: 8px;
+    position: absolute;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-name: snowflake22;
+}
+
+@keyframes snowflake22 {
+    from {
+        left: 837px;
+        top: 1px;
+    }
+
+    to {
+        left: 839px;
+        top: 549px;
+    }
+}
+
+.snowflake23 {
+    height: 12px;
+    position: absolute;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: snowflake23;
+}
+
+@keyframes snowflake23 {
+    from {
+        left: 889px;
+        top: 1px;
+    }
+
+    to {
+        left: 894px;
+        top: 529px;
+    }
+}
+
+.snowflake24 {
+    height: 10px;
+    position: absolute;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-name: snowflake24;
+}
+
+@keyframes snowflake24 {
+    from {
+        left: 926px;
+        top: 1px;
+    }
+
+    to {
+        left: 928px;
+        top: 519px;
+    }
+}
+
+.snowflake25 {
+    height: 10px;
+    position: absolute;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: snowflake25;
+}
+
+@keyframes snowflake25 {
+    from {
+        left: 969px;
+        top: 1px;
+    }
+
+    to {
+        left: 972px;
+        top: 500px;
+    }
+}
+
+.snowflake26 {
+    height: 10px;
+    position: absolute;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: snowflake26;
+}
+
+@keyframes snowflake26 {
+    from {
+        left: 1012px;
+        top: 1px;
+    }
+
+    to {
+        left: 1010px;
+        top: 539px;
+    }
+}
+
+.snowflake27 {
+    height: 10px;
+    position: absolute;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-name: snowflake27;
+}
+
+@keyframes snowflake27 {
+    from {
+        left: 1043px;
+        top: 1px;
+    }
+
+    to {
+        left: 1041px;
+        top: 489px;
+    }
+}
+
+.snowflake28 {
+    height: 9px;
+    position: absolute;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-name: snowflake28;
+}
+
+@keyframes snowflake28 {
+    from {
+        left: 1199px;
+        top: 1px;
+    }
+
+    to {
+        left: 1201px;
+        top: 509px;
+    }
+}
+
+.snowflake29 {
+    height: 10px;
+    position: absolute;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: snowflake29;
+}
+
+@keyframes snowflake29 {
+    from {
+        left: 1229px;
+        top: 1px;
+    }
+
+    to {
+        left: 1226px;
+        top: 529px;
+    }
+}
+
+.snowflake30 {
+    height: 10px;
+    position: absolute;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-name: snowflake30;
+}
+
+@keyframes snowflake30 {
+    from {
+        left: 1255px;
+        top: 1px;
+    }
+
+    to {
+        left: 1254px;
+        top: 509px;
+    }
+}
+
+
+
+.second-snowflake {
+    height: 19px;
+    position: absolute;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: second-snowflake;
+    left: 8px;
+}
+
+@keyframes second-snowflake {
+    from {
+        left: 10px;
+        top: 1px;
+    }
+
+    to {
+        left: 10px;
+        top: 500px;
+    }
+}
+
+.second-snowflake1 {
+    height: 19px;
+    position: absolute;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-name: second-snowflake1;
+}
+
+@keyframes second-snowflake1 {
+    from {
+        left: 87px;
+        top: 1px;
+    }
+
+    to {
+        left: 85px;
+        top: 540px;
+    }
+}
+
+.second-snowflake2 {
+    height: 20px;
+    position: absolute;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-name: second-snowflake2;
+}
+
+@keyframes second-snowflake2 {
+    from {
+        left: 161px;
+        top: 1px;
+    }
+
+    to {
+        left: 163px;
+        top: 530px;
+    }
+}
+
+.second-snowflake3 {
+    height: 22px;
+    position: absolute;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: second-snowflake3;
+}
+
+@keyframes second-snowflake3 {
+    from {
+        left: 242px;
+        top: 1px;
+    }
+
+    to {
+        left: 238px;
+        top: 500px;
+    }
+}
+
+.second-snowflake4 {
+    height: 17px;
+    position: absolute;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-name: second-snowflake4;
+}
+
+@keyframes second-snowflake4 {
+    from {
+        left: 315px;
+        top: 1px;
+    }
+
+    to {
+        left: 318px;
+        top: 520px;
+    }
+}
+
+.second-snowflake5 {
+    height: 19px;
+    position: absolute;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: second-snowflake5;
+}
+
+@keyframes second-snowflake5 {
+    from {
+        left: 395px;
+        top: 1px;
+    }
+
+    to {
+        left: 398px;
+        top: 500px;
+    }
+}
+
+.second-snowflake6 {
+    height: 20px;
+    position: absolute;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: second-snowflake6;
+}
+
+@keyframes second-snowflake6 {
+    from {
+        left: 476px;
+        top: 1px;
+    }
+
+    to {
+        left: 474px;
+        top: 530px;
+    }
+}
+
+.second-snowflake7 {
+    height: 19px;
+    position: absolute;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-name: second-snowflake7;
+}
+
+@keyframes second-snowflake7 {
+    from {
+        left: 562px;
+        top: 1px;
+    }
+
+    to {
+        left: 564px;
+        top: 510px;
+    }
+}
+
+.second-snowflake8 {
+    height: 17px;
+    position: absolute;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: second-snowflake8;
+}
+
+@keyframes second-snowflake8 {
+    from {
+        left: 632px;
+        top: 1px;
+    }
+
+    to {
+        left: 634px;
+        top: 526px;
+    }
+}
+
+.second-snowflake9 {
+    height: 19px;
+    position: absolute;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: second-snowflake9;
+}
+
+@keyframes second-snowflake9 {
+    from {
+        left: 728px;
+        top: 1px;
+    }
+
+    to {
+        left: 724px;
+        top: 540px;
+    }
+}
+
+.second-snowflake10 {
+    height: 22px;
+    position: absolute;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: second-snowflake10;
+}
+
+@keyframes second-snowflake10 {
+    from {
+        left: 796px;
+        top: 1px;
+    }
+
+    to {
+        left: 793px;
+        top: 508px;
+    }
+}
+
+.second-snowflake11 {
+    height: 18px;
+    position: absolute;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: second-snowflake11;
+}
+
+@keyframes second-snowflake11 {
+    from {
+        left: 883px;
+        top: 1px;
+    }
+
+    to {
+        left: 887px;
+        top: 520px;
+    }
+}
+
+.second-snowflake12 {
+    height: 20px;
+    position: absolute;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: second-snowflake12;
+}
+
+@keyframes second-snowflake12 {
+    from {
+        left: 973px;
+        top: 1px;
+    }
+
+    to {
+        left: 970px;
+        top: 530px;
+    }
+}
+
+.second-snowflake13 {
+    height: 19px;
+    position: absolute;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: second-snowflake13;
+}
+
+@keyframes second-snowflake13 {
+    from {
+        left: 1038px;
+        top: 1px;
+    }
+
+    to {
+        left: 1040px;
+        top: 534px;
+    }
+}
+
+.second-snowflake14 {
+    height: 21px;
+    position: absolute;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: second-snowflake14;
+}
+
+@keyframes second-snowflake14 {
+    from {
+        left: 1118px;
+        top: 1px;
+    }
+
+    to {
+        left: 1116px;
+        top: 468px;
+    }
+}
+
+.second-snowflake15 {
+    height: 17px;
+    position: absolute;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: second-snowflake15;
+}
+
+@keyframes second-snowflake15 {
+    from {
+        left: 1196px;
+        top: 1px;
+    }
+
+    to {
+        left: 1199px;
+        top: 500px;
+    }
+}
